@@ -1,0 +1,217 @@
+.sildebar-about{
+    background: linear-gradient(0,rgba(68, 68, 68, 0.3),rgba(68, 68, 68, 0.3)), url(../img/bgabout.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding-top: 70px; */
+    padding-bottom: 50px;
+    
+}
+.silebar-content-about{
+    padding-top: 200px;
+}
+.content-about-introduce{
+    padding: 60px 0 70px 0;
+}
+.about-introduce__heading{
+   padding: 0 32px;
+}
+.about-introduce__heading h1 {
+    font-size:4.2rem;
+    line-height: 5.6rem;
+    color:rgb(82, 80, 80);
+    font-weight: 800;
+    text-align: right;
+
+}
+.about-introduce__detail{
+    padding-top: 16px;
+}
+.about-introduce__detail span{
+    font-size: 1.6rem;
+    color: var(--text-color1);
+    display: block;
+    letter-spacing: 1px;
+    line-height: 2.8rem;
+}
+.about-introduce__video{
+    margin-top: 66px;
+}
+.about-staff-wrap{
+    height: 1100px;
+}
+
+.about-background-staff{
+    background: linear-gradient(0,rgba(99, 98, 98, 0.3),rgba(99, 98, 98, 0.3)), url(../img/about-staff.jpg);
+    padding: 120px 0 230px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.background-staff__text{
+    text-align: center;
+}
+.background-staff__text h1 {
+    font-size: 5.8rem;
+    color: white;
+    letter-spacing: 1px;
+
+}
+.background-staff__text p {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 3rem;
+    margin: 12px 0 34px;
+}
+.btn--about{
+    background: #f3a46b;
+    letter-spacing: 1px;
+    padding: 24px 26px;
+    font-size: 1.6rem;
+}
+.about-staff{
+    position: absolute;
+    top: calc(100% - 25%);
+    left: 25px;
+    right: 25px;
+    
+}
+.about-staff-person {
+    margin-top: 25px;
+}
+.about-staff-person__avt{
+    width: 100%;
+    display: block;
+}
+.about-staff-person__info{
+    padding: 16px 20px;
+    text-align: center;
+    background:white
+    
+}
+.person-info__name{
+    font-size: 2.4rem;
+    color: rgb(58, 57, 57);
+    line-height: 2.4rem;
+}
+
+.person-info__position{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin: 6px;
+    color: var(--text-color1);
+    letter-spacing: 2px;
+}
+.btn-contact{
+    margin-top: 6px;
+    border: 1px solid rgb(224, 224, 224);
+    background: none;
+    color: rgb(143, 139, 139);
+    padding: 4px 16px;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 1.4rem;
+    text-decoration: none;
+    display: inline-block;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+.about-product-new{
+    margin: 4px 0 60px;
+}
+
+.product-new-item{
+    margin-top: 36px;
+}
+.product-new-item__heading{
+    color: rgb(85, 84, 84);
+    display: flex;
+    line-height: 1.2rem;
+}
+.product-new-item__name{
+    font-size: 1.9rem;
+    letter-spacing: 2px;
+    
+}
+
+.product-new-item__seperate{
+    border-bottom: 2px dotted rgb(235, 233, 233);
+    flex: 1;
+}
+
+.product-new-item__price{
+    font-size: 1.9rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.product-new-item__detail{
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-new-item__ticker{
+    font-size: 1.6rem;
+    padding: 0px 12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #f8fefa;
+    line-height: 1rem;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+}
+
+.product-new-item__ticker--none{
+    background: transparent;
+    border: 1px solid rgb(226, 223, 223);
+    color: rgb(163, 162, 162);
+    font-size: 1.4rem;
+}
+.product-new-item__ticker--blue{
+    background: #14b9d5;
+}
+.product-new-item__ticker--red{
+    background: #f76570;
+}
+.product-new-item__ticker--green{
+    background:#1bbc9b;
+}
+.product-new-item__ticker--orange{
+    background:#f3a46b;
+}
+.product-new-item__ticker--yellow{
+    background:#ffd205;
+}
+.about-last{
+    padding: 120px ;
+    background: linear-gradient(0,rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(../img/bg-abou-3.jpg);
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+
+.about-last__item{
+    text-align: center;
+    color: white;
+    margin: 16px 0;
+}
+
+.about-last__qtn{
+    font-size: 5rem;
+    letter-spacing: 2px;
+}
+
+.about-last__description{
+    font-size: 1.4rem;
+    letter-spacing: 3px;
+}

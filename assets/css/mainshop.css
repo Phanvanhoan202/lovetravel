@@ -1,0 +1,206 @@
+.sildebar-shop{
+    background: linear-gradient(0,rgba(36, 35, 35, 0.2),rgba(34, 34, 34, 0.2)), url(../img/bg-shop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+    
+}
+.silebar-content-shop{
+    padding-top: 200px;
+}
+.shop-content-product{
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.shop-content-product-item{
+    margin:16px 0;
+    position: relative;
+}
+.shop-content-product-item a{
+    text-decoration: none;
+}
+
+.shop-product-item-img{
+    width: 100%;
+}
+.shop-product-item__info{
+    padding: 16px 0;
+}
+.shop-product-item__name{
+    font-size: 2rem;
+    color: rgb(80, 79, 79);
+    letter-spacing: 2px;
+}
+
+.shop-product-item__rating i {
+    font-size: 1.3rem;
+    color: var(--text-color1);
+    margin: 8px 0;
+}
+.shop-product-item__price{
+    display: block;
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+    margin: 12px 0 4px 0;
+    color: var(--text-color1);
+}
+.shop-product-item-price__old{
+    text-decoration: line-through;
+    color: rgb(218, 213, 213);
+    margin-right: 6px;
+}
+.btn-shop-addtocart{
+    margin-bottom:20px;
+    outline: none;
+    padding: 8px 12px;
+    background: white;
+    border: 1px solid rgb(228, 225, 225);
+    color: var(--text-color1);
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.sticker-sale{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    padding:4px 8px;
+    background: #1bbc9b;
+    display: none;
+}
+.sticker-sale span{
+    font-size: 1.5rem;
+    color: white;
+    letter-spacing:1px;
+}
+.shop-content-product-item.sale .sticker-sale{
+    display: block;
+}
+
+@media (min-width:1180px) {
+    .row{
+        margin-left: -26px;
+        margin-right: -26px;
+    }
+    .col{
+        padding-right: 26px;
+        padding-left: 26px;
+    }
+    .row.sm-gutter{
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    .sm-gutter .col {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .l-0 {
+        display: none;  
+    }
+    .l-1,
+    .l-2,
+    .l-3,
+    .l-4,
+    .l-5,
+    .l-6,
+    .l-7,
+    .l-8,
+    .l-9,
+    .l-10,
+    .l-11,
+    .l-12 {
+        display: block;
+    }
+
+    .l-1 {
+        flex: 0 0 8.33333%;
+        max-width: 8.33333%;   
+    }
+    .l-2 {
+        flex: 0 0 16.66667%;
+        max-width: 16.66667%;
+    }
+    .l-2-4 {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    .l-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .l-4 {
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+    .l-5 {
+        flex: 0 0 41.66667%;
+        max-width: 41.66667%;
+    }
+    .l-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .l-7 {
+        flex: 0 0 58.33333%;
+        max-width: 58.33333%;
+    }
+    .l-8 {
+        flex: 0 0 66.66667%;
+        max-width: 66.66667%;
+    }
+    .l-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .l-10 {
+        flex: 0 0 83.33333%;
+        max-width: 83.33333%;
+    }
+    .l-11 {
+        flex: 0 0 91.66667%;
+        max-width: 91.66667%;
+    }
+    .l-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .l-o-1 {
+        margin-left:8.33333%;   
+    }
+    .l-o-2 {
+        margin-left:16.66667%;
+    }
+    .l-o-3 {
+        margin-left:25%;
+    }
+    .l-o-4 {
+        margin-left:33.33333%;
+    }
+    .l-o-5 {
+        margin-left:41.66667%;
+    }
+    .l-o-6 {
+        margin-left:50%;
+    }
+    .l-o-7 {
+        margin-left:58.33333%;
+    }
+    .l-o-8 {
+        margin-left:66.66667%;
+    }
+    .l-o-9 {
+        margin-left:75%;
+    }
+    .l-o-10 {
+        margin-left:83.33333%;
+    }
+    .l-o-11 {
+        margin-left:91.66667%;
+    }
+    
+    
+}
